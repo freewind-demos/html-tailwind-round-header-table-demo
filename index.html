@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Demo</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: rgb(249 250 251);
+        }
+
+        th:first-child {
+            border-top-left-radius: 0.75rem;
+            border-bottom-left-radius: 0.75rem;
+        }
+
+        th:last-child {
+            border-top-right-radius: 0.75rem;
+            border-bottom-right-radius: 0.75rem;
+        }
+    </style>
+</head>
+
+<body class="bg-white p-8">
+    <div class="max-w-7xl mx-auto bg-white">
+        <table class="w-full">
+            <!-- Table Header -->
+            <thead>
+                <tr>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">Label</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">Label</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">Label</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">Label</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">Label</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">Label</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">
+                        <div class="flex items-center">
+                            Label
+                            <svg class="w-4 h-4 ml-1 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                    </th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-400">
+                    </th>
+                </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody class="bg-white divide-y divide-gray-200">
+                <!-- Row 1 -->
+                <tr>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path d="M4 15v4h4m12-4v4h-4M4 5v4h4m12-4v4h-4" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="text-sm text-gray-400">Label</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="space-y-1">
+                            <div class="text-sm text-gray-900">Label 201</div>
+                            <div class="text-sm text-gray-400">Label 1,056</div>
+                            <div class="text-sm text-gray-400">Label 17.8%</div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 text-sm text-green-500 bg-green-50 rounded-full">Label</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-4 w-4 text-green-500" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex text-yellow-400 space-x-0.5">
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="ml-4 px-3 py-1 text-sm text-blue-500 bg-blue-50 rounded-lg">Label</span>
+                    </td>
+                </tr>
+                <!-- Row 2 (Copy of Row 1) -->
+                <tr>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path d="M4 15v4h4m12-4v4h-4M4 5v4h4m12-4v4h-4" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="text-sm text-gray-400">Label</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="space-y-1">
+                            <div class="text-sm text-gray-900">Label 201</div>
+                            <div class="text-sm text-gray-400">Label 1,056</div>
+                            <div class="text-sm text-gray-400">Label 17.8%</div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 text-sm text-green-500 bg-green-50 rounded-full">Label</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-4 w-4 text-green-500" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex text-yellow-400 space-x-0.5">
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="ml-4 px-3 py-1 text-sm text-blue-500 bg-blue-50 rounded-lg">Label</span>
+                    </td>
+                </tr>
+                <!-- Row 3 (Copy of Row 1) -->
+                <tr>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path d="M4 15v4h4m12-4v4h-4M4 5v4h4m12-4v4h-4" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="text-sm text-gray-400">Label</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="space-y-1">
+                            <div class="text-sm text-gray-900">Label 201</div>
+                            <div class="text-sm text-gray-400">Label 1,056</div>
+                            <div class="text-sm text-gray-400">Label 17.8%</div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 text-sm text-green-500 bg-green-50 rounded-full">Label</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center">
+                            <svg class="h-4 w-4 text-green-500" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="ml-2 text-sm text-gray-400">Label</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex text-yellow-400 space-x-0.5">
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="ml-4 px-3 py-1 text-sm text-blue-500 bg-blue-50 rounded-lg">Label</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
